@@ -10,3 +10,28 @@
     <link rel="stylesheet" href="style.css">
     <title>To Do List</title>
 </head>
+<body>
+    <div class="container">
+        <h1>Todo Input</h1>
+        <div class="todo-input">
+            <div class="input-group">
+                <div class="input-group-text">
+                    <i class="fas fa-book"></i>
+                </div>
+                <input type="text" id="taskInput" placeholder="New Todo">
+            </div>
+            <span class="error" id="validationError"></span>
+            <button id="createTaskBtn">Add new task</button>
+        </div>
+        <h1>Todo List</h1>
+        <div class="filter-buttons">
+            <button class="active" data-view="all">All</button>
+            <button data-view="done">Done</button>
+            <button data-view="todo">Todo</button>
+        </div>
+        <ul id="tasksList" class="todo-list">No Tasks 📝</ul>
+        <div class="footer-buttons">
+            <button id="clearCompletedBtn">Delete done tasks</button>
+            <button id="clearAllBtn">Delete all tasks</button>
+        </div>
+    </div>
