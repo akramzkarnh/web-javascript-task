@@ -236,3 +236,42 @@ h1 {
     cursor: pointer;
     font-weight: 600;
 }
+.modal-content .save {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.modal-content .save:hover {
+    background-color: #117a8c;
+}
+
+.modal-content .confirm {
+    background-color: #cccccc;
+    color: black;
+}
+
+.modal-content .cancel {
+    background-color: #f44336;
+    color: white;
+}
+
+.modal-content .cancel:hover {
+    background-color: #d32f2f;
+}
+
+.message-box {
+    padding: 0.6rem;
+    margin-top: 0.6rem;
+    border: 0.06rem solid;
+    border-radius: 0.3rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    animation: fadeInOut 3s ease-in-out;
+}
+
+.message-box.success {
+    background-color: #d4edda;
+    color: #155724;
+    border-color: #c3e6cb;
+}
