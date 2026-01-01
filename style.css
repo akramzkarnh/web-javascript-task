@@ -200,3 +200,39 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+.modal-content {
+    background: #fff;
+    padding: 1.3rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    width: 19rem;
+    transform: scale(0.8);
+    transition: transform 0.3s ease-in-out;
+}
+
+.modal[style*="display: flex"] .modal-content {
+    transform: scale(1);
+}
+
+.modal-content input {
+    width: 90%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 0.16rem solid #ddd;
+    border-radius: 0.3rem;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-content button {
+    flex: 1;
+    margin: 0 0.3rem;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    font-weight: 600;
+}
